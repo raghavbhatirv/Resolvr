@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    /* === Core Target & Module System === */
+    "target": "ES2022",               // Modern JS output for Node 18+
+    "module": "NodeNext",             // Modern Node ESM support
+    "moduleResolution": "NodeNext",   // ESM resolution style
+
+    /* === Project Structure === */
+    "rootDir": "./src",               // Source code folder
+    "outDir": "./dist",               // Compiled JS output folder
+
+    /* === Type Safety & Clean Code === */
+    "strict": true,                   // Enables all strict checks
+    "noImplicitOverride": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+
+    /* === Module Interop === */
+    "esModuleInterop": true,          // Allows default import from CJS modules
+    "allowSyntheticDefaultImports": true,
+
+    /* === Dev Experience === */
+    "sourceMap": true,                // Enables source maps for debugging
+    "skipLibCheck": true,             // Faster builds
+    "isolatedModules": true,          // Required for tsx runtime
+
+    /* === Node Types === */
+    "types": ["node"]                 // Enables Node.js global types
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}

@@ -1,0 +1,30 @@
+# Build output
+dist/
+build/
+
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.*
+
+# Logs
+*.log
+
+# Git
+.git/
+.gitignore
+
+# TypeScript metadata
+tsconfig.json
+tsconfig.build.json
+
+# IDE settings
+.vscode/
+.idea/
+
+# Optional lock files (if not using)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
